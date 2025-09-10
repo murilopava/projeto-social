@@ -31,16 +31,20 @@ iframe {
 }
 
 section#paginas {
-  position: absolute;
+  position: sticky;
 
-  left: 82%;
-  height: 100px;
-  width: 100px;
+  padding: 20px;
+  width: 50px;
+  left: 100%;
+
+  
 }
 
 section#paginas > a > img {
 
-  transform: scale(0.2);
+  height: 50px;
+  
+  padding: 10px;
   border-radius: 50%;
 
 }
