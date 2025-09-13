@@ -23,9 +23,10 @@ section#iphone {
 iframe {
   position: absolute;
 
+  height: 450px;
   width: 255px;
-  top: 302px;
-  left: 50%;
+  top: 303px;
+  left: 148px;
 
   transform: translate(-50%,-50%);
   
@@ -42,7 +43,6 @@ section#paginas {
 
 section#paginas > a > img {
 
-  
   height: 50px;
   margin: 10px;
   border-radius: 50%;
@@ -52,8 +52,8 @@ section#paginas > a > img {
 
 section#paginas > a > img:hover {
   
-  
   border: 4px solid white;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.541);
   transform: translate(-10%, -10%);
 
 }
